@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: web-page-cee
+    env: python
+    buildCommand: ""
+    startCommand: gunicorn app:app
+    plan: free
